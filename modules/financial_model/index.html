@@ -498,6 +498,8 @@
       
         
       
+        
+      
     
     
     
@@ -644,6 +646,34 @@
     
   
     Load Emulator v2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../load_emulator_v2.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Load Emulator v2 Details
   
 
     
@@ -1314,9 +1344,15 @@
 </ul>
 <p>The model can simulate fixed or variable tariffs, such as PUN + SPREAD, by manipulating the <code>supplier</code> field for each user. PUN data can be manually updated in <code>files/PZO/PUN_input_data.csv</code>.</p>
 <p>The bill is computed separately for each component, including energy, power, fixed components, duties, and VAT. The output includes timestep-level files for detailed result exploration and validation, plus monthly aggregations required by the financial modules.</p>
-<p><img alt="Bills generator scheme" src="../../assets/schemes/Bills_generator_scheme.png" width="1000" /></p>
+<p align="center">
+  <img src="../assets/schemes/Bills_generator_scheme.png" width="1000">
+</p>
+
 <h2 id="financial-model-and-discounted-cash-flow-analysis">Financial Model and Discounted Cash Flow Analysis</h2>
-<p><img alt="DCF scheme" src="../../assets/schemes/DCF_scheme.png" width="1000" /></p>
+<p align="center">
+  <img src="../assets/schemes/DCF_scheme.png" width="1000">
+</p>
+
 <p>The module collects the financial inputs from the <code>files/inputs_FM.xlsx</code> file and creates a monthly breakdown of all inflated cash flows. The analysis includes the allocation of:</p>
 <ul>
 <li>Capex, grants, debt, and amortization.</li>
